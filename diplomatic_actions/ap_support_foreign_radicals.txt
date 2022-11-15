@@ -1,0 +1,49 @@
+aid_rebels = {
+	requires_approval = no
+	should_notify_third_parties = no
+	is_hostile = yes
+	unlocking_technologies = {
+	}
+	
+	potential = {
+
+	}
+	
+	possible = {
+		custom_tooltip = {
+			text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER
+			scope:target_country.relations:root >= relations_threshold:hostile
+			scope:target_country.relations:root <= relations_threshold:cordial
+		}
+	}
+	
+	pact = {	
+		cost = 100
+	
+		is_two_sided_pact = no
+		show_in_outliner = yes
+		
+		relations_progress_per_day = -3 # At 100, +1 relations
+		relations_improvement_min = -50
+	}
+	
+	accept_effect = {
+        scope:target_country = { 
+            add_modifier = {
+				radicals_supported_by_foreign_state
+				months = 6
+			}
+        }
+	}
+
+    ai = {
+        will_propose = {
+            always = no
+		}
+    }
+}
+
+
+
+
+

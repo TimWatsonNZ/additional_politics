@@ -1,0 +1,22 @@
+
+
+lawgroup_customs_tax = {
+	law_group_category = economy	
+	
+	progressive_movement_chance = 2
+	regressive_movement_chance = 0.125	
+}
+
+lawgroup_right_to_bear_arms = {
+	law_group_category = power_structure	
+	
+	progressive_movement_chance = 2
+	regressive_movement_chance = 0.125	
+}
+
+lawgroup_justice  = {
+	law_group_category = power_structure	
+	
+	progressive_movement_chance = 2
+	regressive_movement_chance = 0.125	
+}

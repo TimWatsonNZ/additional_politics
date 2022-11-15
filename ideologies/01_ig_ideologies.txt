@@ -1,0 +1,38 @@
+ideology_centralisation = {
+}
+
+ideology_decentralisation = {
+    
+}
+
+ideology_city_states = {
+    
+}
+
+ideology_dogmatic = {
+
+}
+
+ideology_feudalist = {
+    lawgroup_customs_tax = {
+        law_customs_tax_nobles_high = strongly_approve
+        law_customs_tax_nobles_low = approve
+        law_customs_tax_clergy = disapprove
+        law_customs_local_government = disapprove
+        law_customs_government = strongly_disapprove
+    }
+    lawgroup_right_to_bear_arms = {
+        law_rtba_noble_militias = strongly_approve
+        law_rtba_clergy_militias = disapprove
+        law_rtba_town_militias = disapprove
+        law_rtba_citizen_right_to_bear_arms = strongly_disapprove
+        law_rtba_citizen_permit_only = strongly_disapprove
+    }
+    lawgroup_justice = {
+        law_justice_no_courts = disapprove
+        law_justice_by_local_lord = strongly_approve
+        law_justice_city_state_laws = disapprove
+        law_justice_religious_courts = disapprove
+        law_justice_state_laws = disapprove
+    }
+}

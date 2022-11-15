@@ -1,0 +1,30 @@
+﻿placid_nobility = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	interest_group_ig_landowners_pol_str_mult = -0.5
+}
+
+radicals_supported_by_foreign_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicals_from_discrimination_mult = 0.01
+	state_radicals_from_sol_change_mult = 0.01
+}
+
+border_raids_effect = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_tax_income_add = -1000
+}
+
+raid_income = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 1000
+}
+
+border_slave_raids_effect = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_birth_rate_mult = -0.025
+}
+
+border_slave_raid_income = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_birth_rate_mult = 0.025
+}
